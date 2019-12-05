@@ -1,0 +1,632 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*---------------------------------------------------
+---------------Home Page Design----------------------
+---------------------------------------------------*/
+
+.bottom-space{}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+    display: block; 
+    background:none;
+    font-size:20px;
+}
+/*Design Head*/
+.header{
+    display: flex;
+   
+
+    
+}
+.logo{}
+.logo img{
+    width: 50%;
+    height:auto;
+    padding-left: 20px;
+}
+.header .menu-ber{
+    width: 100%;
+}
+.menu-ber ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100%;   
+}
+.header .menu-ber ul li{
+}
+.header .menu-ber ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 17px 35px;
+    color: blue;
+}
+.header .menu-ber ul li a:hover{
+    background-color: rgb(221, 216, 216);
+    color:black;
+}
+/* #banner part design */
+
+.banner img{
+    margin-top: 50px;
+    width: 1170px;
+    height: 480px;
+}
+.wrapper .header1 h1{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 35px;
+}
+.OurTeam{
+    display : flex;
+    padding-bottom: 10px;
+}
+/*SingleMember */
+.OurTeam .SingleMember{
+width: 379px;
+height:377px;
+margin-left: 10px;
+border: 1px solid gray;
+background-color: rgb(221, 216, 216);
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+}
+.OurTeam .SingleMember img{
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;  
+}
+.OurTeam .SingleMember:hover img{
+    width: 379px;
+    height: 377px;
+    border-radius: 0%;  
+}
+.OurTeam .SingleMember h1{
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.OurTeam .SingleMember h2{
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0;
+}
+.OurTeam .SingleMember p{
+    text-align: justify;
+    padding:5px 5px;
+}
+.HireMe button{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-sizing: 20px;
+}
+.contact-map-wrapper{
+    background-color: rgb(221, 216, 216);    
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-heading h3{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.footer-heading p{
+    margin: 25px 0;
+}
+
+.contact-map{
+    display: flex;
+    width: 1170px;   
+}
+.contact-map .contact-list{
+    width: 40%;
+    display: block;   
+}
+.contact-map .contact-list input{
+    background-color: white;
+    width: 100%;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+textarea{
+    background-color: white;
+    width: 100%;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+button{
+    background-color: white;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.map{
+    width: 60%;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+
+/*---------------------
+Sign in page design
+----------------------*/
+body,html{
+    height:100%;
+}
+.wrapper{
+    
+}
+.signin-wrapper{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height:100%;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding: 50px 0px;
+}
+.wrapper .form{
+    background: rgba(0, 0, 0, 0.411);
+    width: 50%;
+    height:auto;
+    font-size: 23px;
+    display: block;
+    margin: auto;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding-top: 30px;
+
+}
+.wrapper .form .user{
+    margin-left: 10%;
+    padding: 20px 0px;
+}
+.wrapper .form .user label{
+    display: block;
+    padding-bottom: 5px;
+}
+.wrapper .form .user input{
+    width: 80%;
+    padding: 10px 0px;
+    font-size: 18px;
+    color: white;
+    padding-left: 7px;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+   border-radius: 5px;
+}
+.wrapper .form .pass{
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+.wrapper .form .pass label{
+    display:block;
+    padding-bottom: 5px;;
+}
+.wrapper .form .pass input{
+    width: 80%;
+    padding: 10px 0px;
+    font-size: 18px;
+    color: white;
+    padding-left: 7px;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+   border-radius: 5px;
+    
+}
+.wrapper .form .signin{
+    width: 80%;
+    text-align: end;
+    padding-bottom: 15px;
+}
+.wrapper .form .signin button{
+    border: none;
+    padding: 10px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+.wrapper .form .signin a{
+    text-decoration: none;
+    color:white;
+}
+.wrapper .form .signin button:hover{
+    background:rgba(65, 63, 63, 0.925);
+}
+.wrapper .form .noaccount{
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+.wrapper .form .noaccount p{}
+.wrapper .form .noaccount a{
+    text-decoration: none;
+    color:red;
+}
+.wrapper .form ::placeholder{
+    font-size: 18px;
+    color: white;
+    opacity: 0.7;
+    
+}
+
+
+
+
+/*---------------------
+ sign up page design 
+ ---------------------*/
+
+
+ body{}
+ .signup-wrapper{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height: 100%;
+ }
+.header{}
+.signup-wrapper .header h1{
+    display: block;
+    margin: auto;
+    padding: 30px 0px;
+    color: white;
+}
+.signup-form{
+    background: rgba(0, 0, 0, 0.411);
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 30px 0px;
+    border-radius: 15px;
+    
+}
+.signup-form .name{}
+.signup-form .name label{}
+.signup-form .name input{}
+.signup-form .name ::placeholder{}
+
+.signup-form .c-codeand-ph{
+    display: block;
+    margin: auto;
+}
+.signup-form .c-codeand-phn .country-code label{}
+.signup-form .c-codeand-phn .combine select{
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+    background: rgba(128, 128, 128, 0.418);
+}
+
+.signup-form .c-codeand-phn .combine{
+    display: flex;
+    margin-left: 10%;
+}
+
+.signup-form .c-codeand-phn .phnno{
+    width: 100%;
+}
+.signup-form .c-codeand-phn .phnno input{
+    margin-left:0px;
+    width: 87%;
+}
+.signup-form .c-codeand-phn .phnno ::placeholder{}
+
+.signup-form .email{}
+.signup-form .email label{}
+.signup-form .email input{}
+.signup-form .email ::placeholder{}
+
+.signup-form .pass{}
+.signup-form .pass label{}
+.signup-form .pass input{}
+.signup-form .pass ::placeholder{}
+
+.signup-form .buttonandamember{
+    display: flex;
+    padding: 25px 0px;
+}
+.signup-form .buttonandamember .button{
+    width: 50%;
+    margin-right: 10%;
+    text-align: end;
+}
+.signup-form .buttonandamember .button button{
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.signup-form .buttonandamember .button button:hover{
+    color: rgba(255, 255, 255, 0.726);
+    background:gray;
+}
+.signup-form .buttonandamember .button a{
+    text-decoration: none;
+    
+}
+.signup-form .buttonandamember .amember{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.signup-form .buttonandamember .amember p{}
+.signup-form .buttonandamember .amember a{
+    color: rgb(173, 58, 58);
+    text-decoration: none;
+}
+.signup-form .buttonandamember .amember a:hover{
+    color: rgb(236, 18, 18);
+}
+.signup-form ::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    opacity: 0.7;
+}
+
+.signup-form input{
+   padding: 10px 0px;
+   width: 80%;
+   border-radius: 5px;
+   color: white;
+   display: block;
+   margin: auto;
+   border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+}
+.signup-form label{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 82px;
+}
+
+
+
+
+/*------------------------------------------------
+---------Customer Info Design---------------------
+----------------------------------------------*/
+.customer-wrapper{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+.all-area{
+    padding-bottom: 30px;
+}
+.all-area h1{
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.all-area .form{
+    border: 1px solid gray;
+    width: 60%;
+    display: block;
+    margin: auto;
+    height: auto;
+    background: rgb(37, 37, 37);
+    opacity: 0.8;
+    border-radius: 15px;
+    color: white;
+}
+.all-area .form input{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding: 10px 0px;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    border:1px solid gray;
+}
+.all-area .form label{
+    display: block;
+    margin-left: 80px;
+    padding: 15px 0px;
+    font-size: 20px;
+
+}
+.all-area .form .customer-id{
+    padding-top: 20px;
+}
+
+.all-area .form ::placeholder{
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+}
+.all-area .form .save{
+    margin-left: 80px;
+    padding: 20px 0;
+}
+.all-area .form .save button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background: gray;
+}
+.all-area .form .save button:hover{
+    background: rgb(28, 28, 204);
+    color: white;
+    border: none;
+}
+.all-area .form .save a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*----------------------------------------------------------------
+--------------------search page design---------------------------
+----------------------------------------------------------------*/
+
+.bg-image{
+    background: white;
+}
+.bg-image .search-bar{
+    padding-bottom: 40px;
+}
+.bg-image .search-bar h1{
+    text-align: center;
+    padding: 40px 0px;
+}
+.bg-image .search-bar .inner-search-bar{
+}
+.bg-image .search-bar .save-button{
+    padding-top: 10px;
+}
+.bg-image .search-bar .save-button a{
+    text-decoration: none;
+}
+.bg-image .search-bar .save-button :hover{
+    color: white;
+    background: rgb(75, 72, 72);
+}
+.bg-image .search-bar .save-button button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    
+    
+}
+.bg-image .search-bar .inner-search-bar #searching-place{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid gray;
+    font-size: 17px;
+
+}
+.bg-image .search-bar .inner-search-bar #searching-place option{}
+}
+.bg-image .search-bar .inner-search-bar option{
+}
+
+.bg-image .three-img-one-block{
+    display: flex;
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+.bg-image .three-img-one-block .first-img{
+    width: 33%;
+    margin: 0px 10px;
+    
+}
+.bg-image .three-img-one-block .first-img h2{}
+.bg-image .three-img-one-block .first-img img{}
+.bg-image .three-img-one-block .second-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+
+.bg-image .three-img-one-block .second-img h2{}
+.bg-image .three-img-one-block .third-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-one-block .third-img img{}
+.bg-image .three-img-one-block h2{
+    text-align: center;
+    color:black;
+    padding: 15px 0;
+}
+.bg-image .three-img-one-block img{
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+}
+.bg-image .three-img-one-block img:hover{
+    border-radius: 50%;
+}
+
+
+/*three image another block*/
+
+.bg-image .three-img-another-block{
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.bg-image .three-img-another-block .first-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block .second-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block .third-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block img{
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+}
+.bg-image .three-img-another-block img:hover{
+    border-radius: 50%;
+}
+.bg-image .three-img-another-block h2{
+    margin: 0px 10px;
+    text-align: center;
+    color:black;
+    padding: 15px 0;
+
+}
+
+
+
+/*------------------------------------------------------
+------------------RESERVATION---------------------------
+-------------------------------------------------------*/
+
+
+.reservation-wrapper{
+    background-image: url(images/background.jpg);
+    background:cover;
+    background-attachment: fixed;
+    
+}
+.reservation-wrapper .my-form{
+    background: rgb(255, 255, 255);
+    padding-top: 30px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+.reservation-wrapper .my-form h2{
+    text-align: center;
+}
+.reservation-wrapper .my-form .my-wrap{}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class="signup-wrapper">
+    <div class="header">
+        <h1>TRAVEL AGENCY SIGN IN FORM</h1>
+    </div>
+    <div class="signup-form">
+        <form action="signup.php" method="POST">
+            <div class="name">
+                <label for="n">Name</label>
+                <input name="name" id="n" type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="c-codeand-phn">
+                <label for="pn">Phone No</label>
+                <div class="combine">
+                    <div class="country-code">
+
+                        <select name="select">
+                            <option value="+966">+966</option>
+                            <option value="880" selected>+880</option>
+                            <option value="+92">+92</option>
+                            <option value="+91">+91</option>
+                            <option value="+98">+98</option>
+                            <option value="+972">+972</option>
+                            <option value="+60">+60</option>
+                            <option value="+61">+61</option>
+                            <option value="+1">+1</option>
+                            <option value="+81">+81</option>
+                            <option value="+49">+49</option>
+                            <option value="+44">+44</option>
+                        </select>
+                    </div>
+                    <div class="phnno">
+                        <input name="phone" id="pn" type="number" placeholder="Enter Phone No">
+                    </div>
+                </div>
+
+            </div>
+            <div class="email">
+                <label for="gmail">Email</label>
+                <input name="gmail" id="gmail" type="email" placeholder="Enter Your Mail">
+            </div>
+            <div class="pass">
+                <label for="password">Password</label>
+                <input name="pass" id="password" type="password" placeholder="Enter Your Password">
+            </div>
+            <div class="buttonandamember">
+                <div class="amember">
+                    <p>
+                        Already a member? <a href="index.html" class="to_register">Sign In</a>
+                    </p>
+                </div>
+                <div class="button">
+                    <button name="add">Sign Up</button>
+                </div>
+
+            </div>
+    </div>
+    </form>
+    </div>
+</div>
+</body>
+
+</html>
